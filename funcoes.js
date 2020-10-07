@@ -29,3 +29,33 @@ console.log(sum(5,15));
 var createObj = () => ({ test: 123 });
 console.log(createObj());
 
+//***********************************
+function multiply (a,b) {
+    b = typeof b === 'undefined'? 1: b;
+    return a * b;
+}
+
+console.log(multiply(5,2));
+
+//*******************************
+
+function multiplyif (a,b){
+    if (typeof b === 'undefined') {
+        b = 1;
+    } 
+    return a * b;
+}
+console.log(multiplyif(5,3));
+
+//*********************************
+
+    function randomnumber(){
+        return Math.random() * 10;
+    }
+
+    function multiplyrandom(a, b = randomnumber()){
+        return a * b;
+    }
+    console.log(multiplyrandom(5));
+
+   //***********************
