@@ -1,0 +1,20 @@
+{
+  "name": "desenvolvimento-avancado-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "async-await.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helder-neto80/desenvolvimento-avancado-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helder-neto80/desenvolvimento-avancado-javascript/issues"
+  },
+  "homepage": "https://github.com/helder-neto80/desenvolvimento-avancado-javascript#readme"
+}
