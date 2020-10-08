@@ -9,3 +9,4 @@ function sum(a,b){
 }
 
 console.log(sum(5,5,5,2,3));
+
